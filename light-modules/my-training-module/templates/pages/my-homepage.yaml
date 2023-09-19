@@ -6,3 +6,6 @@ visible: true
 areas:
   main:
     type: noComponent
+    availableComponents:
+      banner:
+        id: my-training-module:components/banner
