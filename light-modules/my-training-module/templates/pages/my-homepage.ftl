@@ -28,7 +28,7 @@
   <body class="my-homepage ${cmsfn.language()}">
 
     <div class="container">
-      <h1>my-homepage works!</h1>
+      <h1>${content.keywords!content.title!content.@name}</h1>
     </div>
 
     [@cms.area name="main" /]
