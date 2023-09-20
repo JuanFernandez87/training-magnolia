@@ -23,7 +23,7 @@
       [#--   <script src="${jsFile.link}"></script> --]
       [#-- [/#list] --]
     [#-- uncomment next line to use resfn templating functions to load all css which matches a globbing pattern --]
-      [#-- ${resfn.css(["/my-training-module/.*css"])!} --]
+      ${resfn.css(["/my-training-module/.*css"])!}
   </head>
   <body class="my-homepage ${cmsfn.language()}">
 
